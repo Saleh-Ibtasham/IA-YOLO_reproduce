@@ -1,0 +1,15 @@
+exp_num: 58
+epoch_first_stage: 0
+epoch_second_stage: 70
+use_gpu: 1
+ckpt_dir: ./experiments_lowlight\exp_58\checkpoint
+exp_dir: ./experiments_lowlight
+gpu_id: 5
+ISP_FLAG: True
+lowlight_FLAG: False
+train_path: C:/Users/niloy/Desktop/lab_assignment_3/Image-Adaptive-YOLO/data/dataset_dark/voc_norm_train.txt
+test_path: C:/Users/niloy/Desktop/lab_assignment_3/Image-Adaptive-YOLO/data/dataset_dark/voc_norm_test.txt
+class_name: C:/Users/niloy/Desktop/lab_assignment_3/Image-Adaptive-YOLO/data/classes/vocdark.names
+WRITE_IMAGE_PATH: C:/Users/niloy/Desktop/lab_assignment_3/Image-Adaptive-YOLO/experiments_lowlight/exp_58/detection_vocnorm_test/
+WEIGHT_FILE: C:/Users/niloy/Desktop/lab_assignment_3/Image-Adaptive-YOLO/experiments_lowlight/exp_58/checkpoint/yolov3_test_loss=9.7815.ckpt-62
+pre_train: NULL
